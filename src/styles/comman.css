@@ -1,0 +1,18 @@
+  
+  /* side nav */
+.side-nav-main-cmp{
+    width: 80px;
+    height: 500px;
+    background-color: rgb(221, 221, 221);
+}
+
+.floor-mang-head-top{
+    width: 100vw;
+    height: 80px;
+    background-color: bisque;
+}
+
+.floor-mang-dashboard{
+    display: flex;
+    flex-direction: row;
+}
