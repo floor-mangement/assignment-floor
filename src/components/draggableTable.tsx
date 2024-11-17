@@ -5,6 +5,7 @@ import { IconButton } from '@material-ui/core';
 import RotateLeftIcon from '@material-ui/icons/RotateLeft';
 import DeleteIcon from '@material-ui/icons/Delete';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
+import { Table } from '../types/tables';
 
 interface DraggableTableProps {
   id: string;
