@@ -9,7 +9,8 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+  // want to create recatContex
+    <React.StrictMode>
     <App />
   </React.StrictMode>
 );
