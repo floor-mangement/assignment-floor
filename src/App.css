@@ -1,7 +1,43 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Italianno&family=Kranky&display=swap');
+
+:root{
+  --primary: #DAA627;
+  --text-primary-color: #0c0c0c;
+  --text-secondary-color: #fafafa;
+  --container-bg-color: #e0e0e0;
+
+  --secondary: #e9b831;
+  --denger-color: #e9b831;
+  --border-radius: 20px;
+  --border: 2px solid rgba(189, 189, 189, 0.75);
+  --box-shadow: 2px 5px 10px rgba(217, 217, 217, 0.88);
+
+  --primary-font:"Delius", cursive;;
+  --secondary-font: "Kranky", serif;
+
+  /* --- imported fonts
+  font-family: "Kranky", serif;
+  font-family: "Delius", cursive;
+  font-family: "Italianno", cursive; */
 }
 
+.App {
+  text-align: center;
+  font-family: var(--primary-font) !important;
+  /* color: rgb(94, 255, 0); */
+  
+
+
+}
+
+body{
+  /* font-family: "Italianno", cursive ; */
+
+  /* color: blue; */
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FloorManagement from './pages/floorManagement.tsx';
 import HomePage from './pages/homePage.tsx';
 import ErrorPage from './pages/errorPage.tsx';
+import { ThemeProvider } from '@mui/material/styles';
+
 
 function App() {
   return (
